@@ -1,0 +1,7 @@
+{
+  "name": "sql-school",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {"dev": "node dev-server.mjs", "check": "node --check dist/app.js && node --check dist/course.js && node --check dist/sql-worker.js"}
+}
